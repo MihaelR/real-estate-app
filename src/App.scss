@@ -1,0 +1,15 @@
+@import 'styles/variables';
+@import 'styles/header';
+@import 'styles/listings';
+@import 'styles/content-area';
+@import 'styles/flexbox';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #b3b3b3;
+}
+
+
