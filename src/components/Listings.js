@@ -35,7 +35,6 @@ class Listings extends Component {
                     <div className="listing">
                      
                         <img className="background" src={house} />
-                            <span className="address">Address</span>
                             <div className="details">
                                 <div className="user-img"></div>
                                 <div className="user-details">
@@ -48,9 +47,12 @@ class Listings extends Component {
                                         <span>1010ft&sup2;</span>
                                     </div>
                                     <div className="bedrooms">
-                                        <FontAwesomeIcon icon={faBed} />
+                                        <FontAwesomeIcon className="fa" icon={faBed} />
                                         <span>3 bedrooms</span>
                                     </div>
+                               </div>
+                               <div className="view-btn">
+                                    View
                                </div>
                             </div>
                             
