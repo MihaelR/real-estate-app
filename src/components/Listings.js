@@ -10,7 +10,7 @@ class Listings extends Component {
             <section id="listings">
 
                 <section className="search-area">
-                    <input type="text" name="search"/>
+                    <input placeholder="Search.." type="text" name="search"/>
                 </section>
 
                 <section className="sortby-area">
@@ -66,12 +66,157 @@ class Listings extends Component {
                             </span>
                         </div>
                     </div>
+
+
+                    <div className="listing">
+                     
+                     <img className="background" src={house} />
+                         <div className="details">
+                             <div className="user-img"></div>
+                             <div className="user-details">
+                                 <span className="user-name">Nina Smith</span>
+                                 <span className="post-date">05/05/2020</span>     
+                             </div>
+                             <div className="listing-details">
+                                 <div className="floor-space">
+                                 <i className="far fa-square"></i>
+                                     <span>1010ft&sup2;</span>
+                                 </div>
+                                 <div className="bedrooms">
+                                     <FontAwesomeIcon className="fa" icon={faBed} />
+                                     <span>3 bedrooms</span>
+                                 </div>
+                            </div>
+                            <div className="view-btn">
+                                 View
+                            </div>
+                         </div>
+                         
+                    
+                  
+                     <div className="bottom-info">
+                         <span className="price">$1000/month</span>
+                         <span className="location">
+                         <FontAwesomeIcon icon={faMapMarkerAlt} />
+                             Ridgeworth, Ny
+                         </span>
+                     </div>
+                 </div>
+
+
+                 <div className="listing">
+                     
+                     <img className="background" src={house} />
+                         <div className="details">
+                             <div className="user-img"></div>
+                             <div className="user-details">
+                                 <span className="user-name">Nina Smith</span>
+                                 <span className="post-date">05/05/2020</span>     
+                             </div>
+                             <div className="listing-details">
+                                 <div className="floor-space">
+                                 <i className="far fa-square"></i>
+                                     <span>1010ft&sup2;</span>
+                                 </div>
+                                 <div className="bedrooms">
+                                     <FontAwesomeIcon className="fa" icon={faBed} />
+                                     <span>3 bedrooms</span>
+                                 </div>
+                            </div>
+                            <div className="view-btn">
+                                 View
+                            </div>
+                         </div>
+                         
+                    
+                  
+                     <div className="bottom-info">
+                         <span className="price">$1000/month</span>
+                         <span className="location">
+                         <FontAwesomeIcon icon={faMapMarkerAlt} />
+                             Ridgeworth, Ny
+                         </span>
+                     </div>
+                 </div>
+
+
+                 <div className="listing">
+                     
+                     <img className="background" src={house} />
+                         <div className="details">
+                             <div className="user-img"></div>
+                             <div className="user-details">
+                                 <span className="user-name">Nina Smith</span>
+                                 <span className="post-date">05/05/2020</span>     
+                             </div>
+                             <div className="listing-details">
+                                 <div className="floor-space">
+                                 <i className="far fa-square"></i>
+                                     <span>1010ft&sup2;</span>
+                                 </div>
+                                 <div className="bedrooms">
+                                     <FontAwesomeIcon className="fa" icon={faBed} />
+                                     <span>3 bedrooms</span>
+                                 </div>
+                            </div>
+                            <div className="view-btn">
+                                 View
+                            </div>
+                         </div>
+                         
+                    
+                  
+                     <div className="bottom-info">
+                         <span className="price">$1000/month</span>
+                         <span className="location">
+                         <FontAwesomeIcon icon={faMapMarkerAlt} />
+                             Ridgeworth, Ny
+                         </span>
+                     </div>
+                 </div>
+
+
+                 <div className="listing">
+                     
+                     <img className="background" src={house} />
+                         <div className="details">
+                             <div className="user-img"></div>
+                             <div className="user-details">
+                                 <span className="user-name">Nina Smith</span>
+                                 <span className="post-date">05/05/2020</span>     
+                             </div>
+                             <div className="listing-details">
+                                 <div className="floor-space">
+                                 <i className="far fa-square"></i>
+                                     <span>1010ft&sup2;</span>
+                                 </div>
+                                 <div className="bedrooms">
+                                     <FontAwesomeIcon className="fa" icon={faBed} />
+                                     <span>3 bedrooms</span>
+                                 </div>
+                            </div>
+                            <div className="view-btn">
+                                 View
+                            </div>
+                         </div>
+                         
+                    
+                  
+                     <div className="bottom-info">
+                         <span className="price">$1000/month</span>
+                         <span className="location">
+                         <FontAwesomeIcon icon={faMapMarkerAlt} />
+                             Ridgeworth, Ny
+                         </span>
+                     </div>
+                 </div>
+
                 </section>
 
                 <section className="pagination">
-                    <ul className="pagination-nums">
+                    <ul className="pages">
                         <li>Prev</li>
-                        <li>1</li>
+                        <li className="active">1</li>
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
